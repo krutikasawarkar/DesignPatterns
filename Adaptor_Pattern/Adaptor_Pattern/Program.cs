@@ -6,7 +6,9 @@ namespace Adaptor_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IGardner gardner = new GardenAdaptor();
+            Client client = new Client(gardner);
+            client.ShowAllFlowers();
         }
     }
 }
