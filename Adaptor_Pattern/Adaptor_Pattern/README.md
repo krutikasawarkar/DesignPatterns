@@ -16,3 +16,6 @@ An adapter lets classes work together that could not otherwise because of incomp
 When to Use Adapter:
 We should use the Adapter class whenever we want to work with the existing class but its interface is not compatible with the rest of our code. 
 Basically, the Adapter pattern is a middle-layer which serves as a translator between the code implemented in our project and some third party class or any other class with a different interface.
+
+UML Diagram:
+![](Images/UML_Diagram.png)
