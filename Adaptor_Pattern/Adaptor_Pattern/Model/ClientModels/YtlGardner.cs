@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Adaptor_Pattern
 {
-    public class ThirdPartyFlowerCollection
+    public class YtlGardner : IGardner
     {
-        public List<Flower> MyFlowerCollection()
+        public List<Flower> ListFlowers()
         {
             return new List<Flower>()
             {
