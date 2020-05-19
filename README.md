@@ -1,2 +1,2 @@
 # DesignPatterns
-World of Design patterns
+This is repo for practicing Design Patterns
