@@ -18,4 +18,5 @@ We should use the Adapter class whenever we want to work with the existing class
 Basically, the Adapter pattern is a middle-layer which serves as a translator between the code implemented in our project and some third party class or any other class with a different interface.
 
 UML Diagram:
-![](Images/UML_Diagram.png)
+![](Images/UML.jpeg)
+![](Images/UML_RealLifeExample.jpeg)
